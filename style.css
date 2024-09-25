@@ -1,36 +1,67 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
     text-align: center;
   }
   
   /* Header Styles */
   header {
-    background-color: #4CAF50;
-    padding: 20px;
+    background-color: #4534da;
     color: white;
+    padding: 20px;
   }
   
-  /* Section Styles */
-  section {
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+  }
+  
+  /* Container to Center the Cards */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: left;
+    border-top: 5px solid #4534da;
   }
   
-  section a {
-    color: #4CAF50;
-    text-decoration: none;
+  /* Heading Styles in the Card */
+  .card h2 {
+    color: #4534da;
+    text-align: center;
+    margin-bottom: 15px;
   }
   
-  section a:hover {
-    text-decoration: underline;
+  /* List Styles */
+  .card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .card ul li {
+    font-size: 1.1rem;
+    margin: 8px 0;
   }
   
   /* Footer Styles */
